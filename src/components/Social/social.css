@@ -1,0 +1,29 @@
+.social-links li{
+    margin: 1rem;
+}
+.social-links li a{
+    font-size: 1.4rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #00AEEF;
+    border: 1px solid #00AEEF;
+    transition: .4s ease-in-out;
+
+}
+.social-links li a:hover{
+    color: #00AEEF;
+    background-color: #fff;
+}
+.social-links li a svg{
+    font-size: 1.6rem;
+    color: #fff;
+    transition: .4s ease-in-out;
+}
+.social-links li a:hover svg{
+    color: #00AEEF;
+}

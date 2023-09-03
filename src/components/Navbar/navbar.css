@@ -1,0 +1,39 @@
+/*
+===================================
+    NAVBAR SECTION START
+===================================
+*/
+.navTop {
+    position: sticky;
+    top: 0;
+    padding: 1rem 2rem;
+    background-color: var(--white);
+    background-color: var(--white);
+    box-shadow: 0 4px 20px -18px grey;
+    z-index: 1000;
+}
+
+#topNav .navbar-brand img {
+    width: 200px;
+}
+
+#topNav  li {
+    margin: 0 .5rem;
+}
+
+#topNav #myNav  li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--black) ;
+    transition: .4s ease-in-out;
+}
+
+#topNav  #myNav li a:is(:hover, .active) {
+    color: var(--blue);
+}
+
+/*
+===================================
+    NAVBAR SECTION END  
+===================================
+*/

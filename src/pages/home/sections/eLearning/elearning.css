@@ -1,0 +1,61 @@
+/*
+=======================================
+    E-LEARNING SOLUTION SECTION START
+=======================================
+*/
+.e-learning {
+    padding: 5rem 2rem;
+    background-color: #E1F4FD;
+    margin-bottom: 4rem;
+}
+
+.e-learning .e-learning-content h2 {
+    font-size: 4.4rem;
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.e-learning .e-learning-content h2 span {
+    font-size: inherit;
+    color: #ED1651;
+}
+
+.e-learning .e-learning-content h5 {
+    font-size: 1.8rem;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 2rem 0;
+}
+
+.e-learning .e-learning-content p {
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 2rem 0;
+}
+
+.e-learning .e-learning-img img {
+    width: 100%;
+    animation: upDown 2s ease-in-out infinite alternate;
+    transition: .4s ease-in-out;
+}
+
+.e-learning .e-learning-img img:hover {
+    scale: 1.1;
+}
+
+@keyframes upDown {
+    from {
+        transform: translateY(-20px);
+    }
+
+    to {
+        transform: translateY(20px);
+
+    }
+}
+
+/*
+=======================================
+    E-LEARNING SOLUTION SECTION END
+=======================================
+*/

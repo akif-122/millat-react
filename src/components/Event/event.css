@@ -1,0 +1,37 @@
+.section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.section-heading h2 {
+    position: relative;
+    padding: 0;
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: var(--blue);
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.section-heading h2:after,
+.section-heading h2:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100vw;
+    height: 10px;
+    background-color: #ED1651;
+}
+
+.section-heading h2:after {
+    right: 110%;
+}
+
+.section-heading h2:before {
+    left: 110%;
+}

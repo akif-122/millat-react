@@ -1,0 +1,85 @@
+
+/*
+=======================================
+    UPCOMING EVENTS SECTION START
+=======================================
+*/
+.up-event {
+    margin: 5rem 0;
+    padding: 5rem 2rem;
+    overflow-x: hidden;
+}
+
+.up-event .up-cards .up-card {
+    width: calc(100% - 50px);
+    border: 2px solid #00A8EA;
+    border-radius: 2rem;
+    background-color: #fff;
+    padding: 4rem 3rem;
+    text-align: center;
+    margin: 2rem auto;
+    transition: .4s ease-in-out;
+}
+
+.up-event .up-cards .up-card.bg-card {
+    background: linear-gradient(rgba(237, 22, 81, .85), rgba(237, 22, 81, .85)), url("../../assets/images/event.jpg");
+    background-position: center;
+    background-size: cover;
+    border-color: transparent;
+    color: var(--white);
+}
+
+.up-event .up-cards .up-card.bg-card h4 {
+    color: var(--white);
+}
+
+.up-event .up-cards .up-card:hover {
+    scale: 1.1;
+}
+
+.up-event .up-cards .up-card.br-green {
+    border-color: #A6CE39;
+}
+
+.up-event .up-cards .up-card.br-orange {
+    border-color: #F5821F;
+}
+
+.up-event .up-cards .up-card.br-blue {
+    border-color: #47A5AF;
+}
+
+.up-event .up-cards .up-card.br-purple {
+    border-color: #A3238E;
+}
+
+.up-event .up-cards .up-card.br-skyblue {
+    border-color: #00AEEF;
+}
+
+.up-event .up-cards .up-card.br-green {
+    border-color: #A6CE39;
+}
+
+.up-event .up-cards .up-card h4 {
+    font-size: 2rem;
+    color: var(--black);
+    font-weight: 600;
+}
+
+.up-event .up-cards .up-card p {
+    margin: 1.5rem 0;
+    font-weight: 300;
+}
+
+@media (max-width: 767px){
+    .up-event .up-cards .up-card {
+        width: calc(100% - 20px);
+       
+    }
+}
+/*
+=======================================
+    UPCOMING EVENTS SECTION END
+=======================================
+*/

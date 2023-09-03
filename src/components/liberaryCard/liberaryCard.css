@@ -1,0 +1,70 @@
+
+
+
+.lib-card {
+    text-align: center;
+    margin: 2.5rem 0;
+    padding: 1.5rem .5rem;
+    border-radius: .8rem;
+    transition: .4s ease-in-out;
+}
+
+.lib-card:hover {
+    scale: 1.1;
+    box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.3);
+}
+
+.lib-card .card-icon {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    border: 8px solid;
+    border-top-color: #E31B22;
+    border-bottom-color: #00AEEF;
+    border-left-color: #F5821F;
+    border-right-color: #A6CE39;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: rotate 3s linear forwards infinite;
+}
+
+.lib-card .card-icon .icon-inner {
+    animation: altRotate 3s linear forwards infinite;
+
+}
+.lib-card .card-icon .icon-inner img{
+    width: 70px;
+    object-fit: contain;
+}
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes altRotate {
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.lib-card .card-content h4 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--blue);
+}
+
+@media (max-width: 767px) {
+
+    .lib-card .card-icon {
+        width: 120px;
+        height: 120px;
+    }
+
+    .lib-card .card-icon .icon-inner img{
+        width: 60px;
+    }
+}
