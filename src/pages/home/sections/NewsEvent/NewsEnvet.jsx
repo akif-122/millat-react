@@ -38,7 +38,7 @@ const NewsEnvet = () => {
     return (
         <>
             {/* <!-- NEWS EVENTS SECTION START --> */}
-            <section class="news-event">
+            <section className="news-event">
                 <Event eventHeading={"NEWS & EVENTS"} />
 
                 <Container>

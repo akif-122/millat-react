@@ -6,12 +6,12 @@ const Footer = () => {
     return (
         <>
             {/* <!-- FOOTER SECTION START --> */}
-            <footer class="footer">
+            <footer className="footer">
                 <Container>
                     <Row>
                         <Col sm="6" lg="3" data-aos="fade-right">
                             <h3>SERVICES</h3>
-                            <ul class="list-unstyled">
+                            <ul className="list-unstyled">
                                 <li><a href="#">Textbooks</a></li>
                                 <li><a href="#">– Prime (New Edition)</a></li>
                                 <li><a href="#">– Educatum (New Edition)</a></li>
@@ -38,7 +38,7 @@ const Footer = () => {
                         <Col sm="6" lg="3" data-aos="zoom-in">
                             <h3>Userful Links</h3>
 
-                            <ul class="list-unstyled">
+                            <ul className="list-unstyled">
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#">Services</a></li>
                                 <li><a href="#">Courses</a></li>
@@ -48,10 +48,10 @@ const Footer = () => {
 
                         <Col sm="6" lg="3" data-aos="fade-left">
                             <h3>Contacts</h3>
-                            <ul class="list-unstyled">
-                                <li><a href="#"><i class="fa-solid fa-phone-flip"></i> UAN: 0315 1212212</a></li>
-                                <li><a href="#"><i class="fa-solid fa-phone-flip"></i> 091 5881585</a></li>
-                                <li><a href="#"><i class="fa-solid fa-envelope"></i> millatpublisers@gmail.com</a></li>
+                            <ul className="list-unstyled">
+                                <li><a href="#"><i className="fa-solid fa-phone-flip"></i> UAN: 0315 1212212</a></li>
+                                <li><a href="#"><i className="fa-solid fa-phone-flip"></i> 091 5881585</a></li>
+                                <li><a href="#"><i className="fa-solid fa-envelope"></i> millatpublisers@gmail.com</a></li>
                             </ul>
 
                             <h3>Folow Us</h3>

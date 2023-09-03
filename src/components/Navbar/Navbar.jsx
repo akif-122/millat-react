@@ -9,8 +9,8 @@ const TopNav = () => {
     return (
         <>
             {/* <!-- NAVBAR SECTION START --> */}
-            <div class="navTop">
-                <Navbar expand="md" class="navbar navbar-expand-md navbar-light" id="topNav">
+            <div className="navTop">
+                <Navbar expand="md" className="navbar-light" id="topNav">
                     <Container>
                         <Navbar.Brand href="#">
                             <img src={Logo} alt="Millat Logo" />
@@ -19,13 +19,10 @@ const TopNav = () => {
                         <Navbar.Toggle aria-controls="myNav" />
 
                         <Navbar.Collapse id="myNav">
-                            <Nav class="navbar-nav text-uppercase ms-auto">
-                                <li><NavLink to="/" activeClass="active" class={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "active" : "nav-link active"}>Home</NavLink></li>
-                                <li><NavLink to="/about" class={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "active" : "nav-link "}>About Us</NavLink></li>
-                                <li><NavLink to="/contact" class={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "active" : "nav-link "}>contact us</NavLink></li>
+                            <Nav className="navbar-nav text-uppercase ms-auto">
+                                <li><NavLink to="/" activeclassname="active" className="nav-link">Home</NavLink></li>
+                                <li><NavLink to="/about" className="nav-link">About Us</NavLink></li>
+                                <li><NavLink to="/contact" className="nav-link">contact us</NavLink></li>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

@@ -8,7 +8,7 @@ const Social = () => {
     
     return (
         <>
-            <ul class="d-flex list-unstyled align-items-center social-links">
+            <ul className="d-flex list-unstyled align-items-center social-links">
                 <li><a href="#"><FontAwesomeIcon icon={faFacebookF} /></a></li>
                 <li><a href="#"><FontAwesomeIcon icon={faTwitter} /></a></li>
                 <li><a href="#"><FontAwesomeIcon icon={faInstagram} /></a></li>

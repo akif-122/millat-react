@@ -5,7 +5,7 @@ const Header = ({ headerText }) => {
         <>
             {/* <!-- HEADER SECTION START --> */}
             <header id="header">
-                <div class="header-content text-center">
+                <div className="header-content text-center">
 
                     {
                         headerText.subHeading ? <h4 data-aos="fade-down">{headerText.subHeading}</h4>
@@ -24,7 +24,7 @@ const Header = ({ headerText }) => {
                             : null
                     }
 
-                    <div class="header-btn text-center" data-aos="zoom-in">
+                    <div className="header-btn text-center" data-aos="zoom-in">
                         <a href={headerText.btnLink}>{headerText.btnText}</a>
                     </div>
                 </div>

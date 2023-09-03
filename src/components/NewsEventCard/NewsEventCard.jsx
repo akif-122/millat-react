@@ -6,7 +6,7 @@ export const NewsEventCard = ({ cardData }) => {
         <>
             {
                 cardData.map((val, i) => (
-                    <Col lg="6"  className='px-xl-5' data-aos="fade-down-right">
+                    <Col lg="6"  className='px-xl-5' data-aos="fade-down-right" key={i}>
                         <div className="ne-card d-flex align-items-center justify-content-between">
                             <div className="card-content">
                                 <h5>{val.heading}</h5>

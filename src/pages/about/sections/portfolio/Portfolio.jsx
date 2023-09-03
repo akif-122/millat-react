@@ -56,7 +56,7 @@ const Portfolio = () => {
     return (
         <>
             {/* <!-- PORTFOLIO SECTION START --> */}
-            <section class="portfolio">
+            <section className="portfolio">
                 <Event eventHeading={"Portfolio"} />
 
                 <Container>

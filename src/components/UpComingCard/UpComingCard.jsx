@@ -7,7 +7,7 @@ const UpComingCard = ({ cardData }) => {
         <>
             {
                 cardData.map((val, i) => (
-                    <Col sm="6" lg="4" data-aos="fade-right">
+                    <Col sm="6" lg="4" data-aos="fade-right" key={i}>
                         <div className={`up-card ${val.class}`}>
                             <h4>{val.heading}</h4>
                             <p>{val.text}</p>

@@ -1,0 +1,44 @@
+/*
+=======================================
+    CONTACT SECTION START
+=======================================
+*/
+.contact.bg-none {
+    background-color: transparent;
+}
+
+.contact .contact-content .contact-help{
+    margin-bottom: 5rem;
+    max-width: 400px;
+}
+.contact .contact-content .contact-help h4{
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.contact .contact-content .terms{
+    margin-top: 4rem;
+}
+.contact .contact-content .terms h5{
+    font-size: 1.8rem;
+}
+.contact .contact-content .terms p{
+    font-size: 1.5rem;
+    color: #777;
+}
+.contact.bg-none .contact-content:before {
+    background-color: transparent;
+}
+
+.contact.bg-none .contact-content p {
+    color: #000 !important;
+}
+
+
+
+
+
+/*
+=======================================
+    CONTACT SECTION END
+=======================================
+*/

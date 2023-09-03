@@ -36,14 +36,14 @@ const Liberary = () => {
     return (
         <>
             {/* <!-- LEARNING LIBERARY SECTION START --> */}
-            <section class="liberary">
-                <div class="liberary-heading">
+            <section className="liberary">
+                <div className="liberary-heading">
                     <h2 data-aos="fade-down">OUR <span>LEARNING</span> LIBRARY</h2>
                     <p data-aos="fade-up">We have 4 Series of our Publishing for KPK and more Provinces
                         of Pakistan. That have powerful Items </p>
                 </div>
 
-                <Container class="container">
+                <Container className="container">
                     <Row className="lib-cards">
                         <LiberaryCard CardData={CardData} />
                     </Row>

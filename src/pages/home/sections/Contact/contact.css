@@ -5,8 +5,8 @@
 */
 .contact {
     margin: 5rem 0;
-    background-color: #E1F4FD;
-    overflow: hidden;
+    background-color: #E1F4FD; 
+     overflow: hidden;
 }
 
 .contact .contact-content {
@@ -17,7 +17,7 @@
     isolation: isolate;
 }
 
-.contact .contact-content::after {
+.contact .contact-content::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -47,7 +47,7 @@
 }
 
 .contact .contact-content p {
-    color: #fff;
+    color: #fff !important;
 }
 
 .contact .contact-content p svg {

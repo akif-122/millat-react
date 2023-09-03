@@ -8,19 +8,19 @@ const Story = () => {
     return (
         <>
             {/* <!-- STORY SECTION START --> */}
-            <section class="story">
+            <section className="story">
 
                 <Event eventHeading={"OUR STORY"} />
                  
                 <Container >
                     <Row >
                         <Col md="6" data-aos="fade-right">
-                            <div class="story-img">
+                            <div className="story-img">
                                 <img src={aboutImg} width="100%" alt="" />
                             </div>
                         </Col>
                         <Col md="6"  data-aos="fade-left">
-                            <div class="story-content text-justify">
+                            <div className="story-content text-justify">
                                 <p>Millat Publishing Company was founded in the year 1972 at
                                     Charsadda in the province of KPK ascertaining the development
                                     of the taught utilizing all physical, moral and ethical spheres to
